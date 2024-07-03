@@ -1,0 +1,32 @@
+body{
+	margin:0;
+	padding:0;
+	/*position:relative;*/
+}
+header{
+	background-color:black;
+	color:#fff;
+	padding:13PX;
+	font-family:Verdana,sans-serif;
+	/*position:fixed;*/
+	/*width:100%;*/
+}
+
+header ul{
+	list-style:none;
+	/*margin-left:-18PX;*/
+	margin:0;
+	padding:0;
+}
+
+header ul li{
+	display:inline-block;
+	margin-left:20PX;
+	font-size:15PX;
+	text-transform:uppercase;
+}
+
+header ul li:hover{
+	background-color:grey;
+	color:black;
+}
