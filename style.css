@@ -1,27 +1,87 @@
 body{
 	margin:0;
 	padding:0;
+	font-family: Segoe UI, Arial,sans-serif;
+	/* font-family: Verdana,sans-serif ; */
+	/* font-family: Segoe UI, Arial,sans-serif; */
+	position: relative;
+
 }
 header{
 	background-color:black;
 	color:#fff;
 	font-family:Verdana,sans-serif;
+	position: fixed;
+	width: 100%;
 }
 
-header ul{
+header .main-ul{
 	list-style:none;
 	margin:0;
 	padding:0;
+	position: relative;
 }
 
-header ul li{
+header .main-ul li{
 	display:inline-block;
 	font-size:15PX;
 	text-transform:uppercase;
 	padding:15px;
+	/* position: relative; */
 }
 
 header ul li:hover{
 	background-color:grey;
 	color:black;
 }
+
+header .dropdown-menu{
+	position: absolute;
+	left: 305PX;
+	background-color: #fff;
+	/* text-align: center; */
+	width:150PX
+}
+
+header .dropdown-menu li{
+	display: block;
+}
+
+/* end of header style ////////////////////////////////////////////////////////////*/
+
+/* start of photo1 style */
+
+.main-container .photo1 img{
+	width:100%;
+}
+
+.text-of-photo1{
+	color: white;
+	margin-top: -140PX;
+	font-family: Verdana,sans-serif;
+	/* margin-left: 40%; */
+	/* margin-right: auto; */
+}
+
+.main-container .text-of-photo1 .p1{
+	font-size: 22PX;
+	text-transform: capitalize;
+}
+
+.main-container .text-of-photo1 .p2:first-letter{
+	text-transform: uppercase;
+}
+
+.main-container .text-of-photo1 .p2 span{
+	text-transform: capitalize;
+}
+
+.text-of-photo1 .p1{
+	margin-left: 45%;
+}
+
+.text-of-photo1 .p2{
+	margin-left: 38%;
+}
+
+/* end of photo1 style */
