@@ -107,11 +107,40 @@ header .main-ul .more:hover .dropdown-menu{
 	text-align:center;
 	border:1PX solid red;
 	margin-top:45PX;
+	padding-bottom: 85PX;
 }
 
-.main-container .the_band .title{
+.main-container .the_band .para .title{
 	text-transform:uppercase;
 	font-size:30px;
 	letter-spacing: 3PX;
+	margin-bottom:20PX;
+}
+
+.main-container .the_band .para .p2{
+	color: grey;
+	font-style: italic;
+}
+
+.main-container .the_band .para .p2:first-letter{
+	text-transform: uppercase;
+}
+
+.main-container .the_band .para .p3{
+	text-align: justify;
+	/*border: 1PX solid;*/
+	width:60%;
+	margin-left:20%;
+}
+
+.main-container .the_band .images img{
+	height:150PX;
+	width: 150PX;
+	border-radius:5PX;
+}
+
+.main-container .the_band .images > div{
+	display: inline-block;
+	margin: 0 4%;
 }
 /*end section of the band ///////////////////////////////////////*/
