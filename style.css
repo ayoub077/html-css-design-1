@@ -37,15 +37,30 @@ header ul li:hover{
 
 header .dropdown-menu{
 	position: absolute;
-	left: 305PX;
+	left: 345PX;
+	top:48PX;
 	background-color: #fff;
 	/* text-align: center; */
-	width:150PX
+	width:100PX
 }
 
 header .dropdown-menu li{
 	display: block;
+	color:black;
+	font-size:14px;
+	/*padding:0;*/
+	margin:0 0 0 -40PX;
+	text-transform:capitalize;
 }
+
+header .dropdown-menu{
+	display:none;
+}
+
+header .main-ul .more:hover .dropdown-menu{
+	display:block;
+}
+
 
 /* end of header style ////////////////////////////////////////////////////////////*/
 
@@ -84,4 +99,19 @@ header .dropdown-menu li{
 	margin-left: 38%;
 }
 
-/* end of photo1 style */
+/* end of photo1 style //////////////////////////////////////////////*/
+
+/*start section of the band ///////////////////////////////////////*/
+
+.main-container .the_band{
+	text-align:center;
+	border:1PX solid red;
+	margin-top:45PX;
+}
+
+.main-container .the_band .title{
+	text-transform:uppercase;
+	font-size:30px;
+	letter-spacing: 3PX;
+}
+/*end section of the band ///////////////////////////////////////*/
